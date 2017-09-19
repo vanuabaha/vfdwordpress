@@ -1,0 +1,406 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+ 
+/* Custom CSS by Mike*/
+
+
+/* Line Menu*/
+
+.uk-navbar-nav > li > a {
+  display: block;
+  -moz-box-sizing: border-box;
+  text-decoration: none;
+  height: 90px;
+  
+  position: relative;
+  padding: 0;
+  text-transform: uppercase;
+}
+.uk-navbar-nav > li > a:after {
+  content: "";
+  position: absolute;
+  top: 34%;
+  right: 0;
+  left: 0;
+  max-width: 0;
+  height: 2px;
+  margin-top: 12px;
+  -webkit-transition: max-width 0.4s;
+  transition: max-width 0.4s;
+}
+.uk-navbar-nav > li:hover > a:after,
+.uk-navbar-nav > li > a:focus:after
+ {
+ max-width: 99%;
+}
+.uk-navbar-nav > li.uk-active > a:after {
+  max-width: 99%;
+
+}
+.uk-dropdown-navbar {
+ margin-top: -16px;
+}
+
+
+.uk-navbar-nav > li > a { 
+margin-right: 20px;
+}
+
+.uk-dropdown{
+top:82%
+}
+
+.readon{
+border-radius:3px;
+padding:7px 8px ;
+background: #444;
+color: #ffffff;
+border-bottom: 3px solid #323232;
+display:table;
+margin:12px;
+
+}
+
+.readon:hover{
+border-radius:3px;
+background: #323232;
+color: #ccc;
+text-decoration: none;
+border-radius:3px;
+}
+
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a{
+border-bottom: 3px solid #323232;
+background: #444;
+
+}
+
+
+.sprocket-strips-c-readon{
+border-radius:3px;
+padding:6px 12px 6px;
+background: #444;
+color: #ffffff;
+border-bottom: 3px solid #323232;
+}
+
+
+.sprocket-strips-c-readon:hover{
+border-radius:3px;
+background: #323232;
+color: #ccc;
+text-decoration: none;	
+}
+
+/*Button Slider*/
+
+.custom-buttom {
+    background: #444;
+    color: #ffffff;
+    border-bottom: 3px solid #323232;
+    letter-spacing: 1px;
+    padding: 13px 19px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+	text-transform: uppercase;
+    transition: all 300ms linear 0s;
+    font-family: inherit;
+	border-radius:3px;
+}
+
+.custom-buttom:hover
+{
+border-radius:3px;
+    background: #323232;
+	color: #c91032;
+	text-decoration: none;
+}
+
+
+/*Backgrounds*/
+.tm-toolbar-bg{
+color: #8b8b8b;
+font-size:12px;
+line-height: 16px;
+height:43px;
+}
+
+.menu-fixed {
+  position: fixed;
+  z-index: 999;
+  opacity: 0.97;
+  top: 0;
+  width: 100%;
+}
+
+.tm-block-bottom-a{
+padding:0px;
+}
+
+
+.uk-icon-button:hover{
+color:#fff;
+}
+
+.tm-block-bottom-b .uk-icon-button
+{
+    background: none;
+    border-radius: 0%;
+	border: 1px solid #666666;
+	color: #cccccc;
+}
+
+.tm-block-bottom-b .uk-panel-box {
+    background: none;
+	
+}
+
+.tm-block-top-a .uk-panel-box{
+background:none;
+}
+
+
+/*wk-slideshow*/
+
+.wk-slideshow .next, .wk-slideshow .prev {
+text-align:center;
+z-index: 6;
+color:#fff;
+}
+.home-slide .wk-slideshow .caption 
+{
+background: none;
+bottom: 40%;
+position: absolute;
+z-index: 5;
+}
+
+.wk-slideshow-default > div:hover .prev:after,
+.wk-slideshow-default > div:hover .next:after
+ {
+font-family: "FontAwesome";
+font-size: 50px;
+line-height: 60px;
+font-weight: bold;
+}
+
+.wk-slideshow-default > div:hover .prev,
+.wk-slideshow-default > div:hover .next
+{
+background:  none;
+transition: all 300ms linear 0s;
+height: 60px;
+width: 60px;
+}
+.wk-slideshow-default > div:hover .prev:hover,
+.wk-slideshow-default > div:hover .next:hover
+{
+    
+}
+
+.wk-slideshow-default > div:hover .prev:after{
+ content: "\f104";
+}
+	
+.wk-slideshow-default > div:hover .next:after{
+ content: "\f105";
+}
+
+.home-slide .wk-slideshow .caption a
+{
+ text-decoration: none;
+}
+.wk-slideshow .caption a{
+
+text-decoration:none;
+}
+
+
+/*bold*/
+
+.bold1,
+.bold2,
+.border
+{
+display: inline-block;
+color: #ffffff;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.border{
+padding: 5px 10px;
+border: 1px solid #ffffff;
+}
+
+/*Fonts*/
+
+.font23{
+font-size: 23px;
+line-height: 25px;
+}
+.font52{
+font-size: 52px;
+line-height: 51px;
+color:fff;
+font-weight:bold;
+}
+.font52{
+color:#ffffff;
+}
+
+/*Line*/
+.border-line
+{
+position:relative;
+}
+.border-line:before
+{
+background: #ffffff;
+bottom: -13px;
+content: "";
+display: block;
+height: 2px;
+position: absolute;
+width: 130px;
+}
+.border-line:before
+{
+left: 50%;
+margin-left: -60px;
+}
+
+/*Slide*/
+@media (min-width: 320px) and (max-width: 1024px) {
+.font52 { display: none;}
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+	#tm-headerbar .uk-container .tm-navbar{
+	position: relative;
+	top: -10px;
+	left: 0px;
+	border: 0px solid #444;
+	}
+}
+
+
+div.tm-headerbar-bg.sticky{
+min-height: 60px; 
+position: fixed;
+z-index: 1000;
+width: 100%;
+}
+.tm-toolbar {border: 0px solid #444; margin:10px 0px;}
+.tm-headerbar {border: 0px solid #444;}
+
+#tm-headerbar .uk-container{
+position: relative;
+border: 0px solid #444;
+}
+
+
+.tm-headerbar,
+.tm-navbar {
+
+margin:17px;
+
+}
+
+
+.tm-headerbar{
+float: left;
+}
+
+nav.tm-navbar{
+float: right;
+margin: 12px 0px;
+margin-bottom:-5px;
+}
+
+/***Portfolio **/
+.sprocket-mosaic-g-filter {
+    text-transform:uppercase;
+	float:none;
+}
+.uk-icon-search-plus,
+.uk-icon-mail-forward {
+background: rgba(0, 0, 0, 0.5);
+padding: 15px;
+border-top-left-radius: 2em 0.5em;  
+border-top-right-radius: 1em 3em;
+border-bottom-right-radius: 4em 0.5em;
+border-bottom-left-radius: 1em 3em;	
+}
+#main .sprocket-mosaic .sprocket-mosaic-g-order ul li,
+.sprocket-mosaic .sprocket-mosaic-g-order li,
+#main .sprocket-mosaic .sprocket-mosaic-g-filter ul li,
+.sprocket-mosaic .sprocket-mosaic-g-filter li {
+ border-radius:0;
+ padding:6px 10px;
+ margin-right: 5px;
+}
+.overlay-mode .sprocket-mosaic-g-title{
+
+-moz-transition: all 1s ease;
+14.
+/* WebKit */
+15.
+-webkit-transition: all 1s ease;
+16.
+/* Opera */
+17.
+-o-transition: all 1s ease;
+18.
+/* Standard */
+19.
+transition: all 1s ease;
+-ms-: all 1s ease;
+}
+.sprocket-mosaic-g-title a {
+    color: #ccc;
+    font-size: 20px;
+    line-height:24px;
+}
+.sprocket-mosaic-g-loadmore {
+    border-radius:0;
+    padding:0;
+	border-radius:2px;
+	color:#444;
+	border:3px solid #444;
+	background:#eee;
+}
+.loadmore-more.uk-button-primary {
+    padding: 6px;
+}
+.sprocket-lists-title{
+color:#fff;
+}
+.sprocket-mosaic-g-filter li, .sprocket-mosaic-g-order li{
+color:#232323;
+background:#eee;
+}
+.sprocket-mosaic-g-filter li.active, .sprocket-mosaic-g-order li.active{
+background:#444;
+border-bottom:3px solid #323232;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+	nav.tm-navbar{
+    float:left;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+.uk-navbar-center {
+    float: left;
+    max-width: 100%;
+}
+}
